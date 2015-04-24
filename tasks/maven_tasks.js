@@ -40,20 +40,14 @@ module.exports = function(grunt) {
   grunt.registerTask('mavenExecute:run', function() {
     var options = grunt.config('maven.options');
 
-
     var args = [ options.goal ];
 
-    //TODO: add params to pass to maven
+    args = args.concat(args, options.params);
 
-    /*args.push('-Dfile='         + options.file);
-    args.push('-DgroupId='      + options.groupId);
-    args.push('-DartifactId='   + options.artifactId);
-    args.push('-Dpackaging='    + options.packaging);
-    args.push('-Dversion='      + options.version);*/
 
     if (grunt.debug || options.debug) {
-      args.push('-e');
-      args.push('-X');
+          args.push('-e');
+          args.push('-X');
     }
 
     var done = this.async();
