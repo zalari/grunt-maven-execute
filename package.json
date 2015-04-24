@@ -1,0 +1,48 @@
+{
+  "name": "grunt-maven-execute",
+  "description": "Grunt plugin to run a maven goal",
+  "version": "0.1.0",
+  "homepage": "https://github.com/zalari/grunt-maven-execute",
+  "author": {
+    "name": "Christian Ulbrich",
+    "email": "christian.ulbrich@zalari.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zalari/grunt-maven-execute.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zalari/grunt-maven-execute/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/zalari/grunt-maven-execute/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "mocha": "~1.21.4",
+    "async": "~0.9.0",
+    "chai": "~1.9.1",
+    "chai-things": "~0.2.0",
+    "rimraf": "~2.2.8",
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-simple-mocha": "git://github.com/yaymukund/grunt-simple-mocha.git#7d1cb9bfd8580fc5369bd82e288f683bb7ca0d46"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "maven"
+  ]
+}
