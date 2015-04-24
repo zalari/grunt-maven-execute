@@ -1,7 +1,7 @@
 {
   "name": "grunt-maven-execute",
   "description": "Grunt plugin to run a maven goal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/zalari/grunt-maven-execute",
   "author": {
     "name": "Christian Ulbrich",
