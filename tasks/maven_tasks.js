@@ -45,11 +45,7 @@ module.exports = function(grunt) {
 
     //TODO: add params to pass to maven
 
-    /*args.push('-Dfile='         + options.file);
-    args.push('-DgroupId='      + options.groupId);
-    args.push('-DartifactId='   + options.artifactId);
-    args.push('-Dpackaging='    + options.packaging);
-    args.push('-Dversion='      + options.version);*/
+    args = options.params;
 
     if (grunt.debug || options.debug) {
       args.push('-e');
